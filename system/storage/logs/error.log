@@ -1,0 +1,2 @@
+2019-07-30 14:11:04 - PHP Notice:  Undefined variable: entry_export in /var/www/test.loc/html/admin/view/template/tool/backup.tpl on line 43
+2019-07-30 14:11:19 - PHP Notice:  Undefined variable: entry_export in /var/www/test.loc/html/admin/view/template/tool/backup.tpl on line 43
