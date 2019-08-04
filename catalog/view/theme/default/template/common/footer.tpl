@@ -92,14 +92,14 @@
         </ul>
 
         <div class="footer_container__toggle">
-          <a href="#" class="contact contact-footer ">+38 (096) 762-40-96</a>
-          <a href="#" class="contact contact-footer ">Nesterenkoluda.ln@gmail.com</a>
+          <a href="tel:<?php echo str_replace(array(' ', '(', ')', '-','+'),'',$telephone);?>" class="contact contact-footer ">+<?php echo $telephone; ?></a>
+          <a href="mailto:<?php echo $email; ?>" class="contact contact-footer "><?php echo $email; ?></a>
 
           <div class="footer_container_soc">
-            <a href="#" class="contact contact-soc"><span class="icon-facebook-logo"></span></a>
-            <a href="#" class="contact contact-soc"><span class="icon-instagram-social-outlined-logo"></span></a>
-            <a href="#" class="contact contact-soc"><span class="icon-twitter-social-outlined-logo"></span></a>
-            <a href="#" class="contact contact-soc"><span class="icon-youtube"></span></a>
+            <a href="<?php echo $facebook; ?>" class="contact contact-soc"><span class="icon-facebook-logo"></span></a>
+            <a href="<?php echo $instagram; ?>" class="contact contact-soc"><span class="icon-instagram-social-outlined-logo"></span></a>
+            <a href="<?php echo $twitter; ?>" class="contact contact-soc"><span class="icon-twitter-social-outlined-logo"></span></a>
+            <a href="<?php echo $youtube; ?>" class="contact contact-soc"><span class="icon-youtube"></span></a>
           </div>
         </div>
       </div>

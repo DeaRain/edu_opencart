@@ -20,6 +20,13 @@ class ControllerCommonFooter extends Controller {
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
 
+        $data['telephone'] = $this->config->get('config_telephone');
+        $data['email'] = $this->config->get('config_email');
+        $data['facebook'] = $this->config->get('config_facebook');
+        $data['instagram'] = $this->config->get('config_instagram');
+        $data['twitter'] = $this->config->get('config_twitter');
+        $data['youtube'] = $this->config->get('config_youtube');
+
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
