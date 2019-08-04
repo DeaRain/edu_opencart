@@ -29,3 +29,30 @@
 2019-08-04 9:21:33 - PHP Notice:  Undefined variable: twitter in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 101
 2019-08-04 9:21:33 - PHP Notice:  Undefined variable: youtube in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 102
 2019-08-04 10:10:10 - PHP Notice:  Undefined variable: text_language in /var/www/test.loc/html/catalog/view/theme/default/template/common/currency.tpl on line 5
+2019-08-04 13:18:02 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
+2019-08-04 13:18:03 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
+2019-08-04 13:18:03 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 84
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 85
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 101
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 102
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 84
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 85
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 101
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 102
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 84
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 85
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 101
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 102
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
+2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116

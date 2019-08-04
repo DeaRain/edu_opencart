@@ -72,7 +72,6 @@
   </div>
 </nav>
 <?php endif;?>
-
 <header>
   <div class="header-flex-container">
     <div class="container">

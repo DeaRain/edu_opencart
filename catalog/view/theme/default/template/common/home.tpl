@@ -1,4 +1,16 @@
 <?php echo $header; ?>
+
+<?php echo $column_left; ?>
+<?php echo $content_top; ?>
+<?php echo $content_bottom; ?>
+<?php echo $column_right; ?>
+
+<?php echo $footer; ?>
+
+
+<?php if(0) :?>
+
+<?php echo $header; ?>
 <div class="container">
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
@@ -12,3 +24,5 @@
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?>
+
+<?php endif; ?>

@@ -2,36 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7e3509a-d68c-40b9-9129-1ec255255631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/setting/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/setting/setting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/russian/setting/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/russian/setting/setting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/template/setting/setting.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/template/setting/setting.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/english/common/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/english/common/language.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/russian/common/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/russian/common/language.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/dist/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/dist/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/currency.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/currency.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/common/filemanager.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/common/filemanager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/model/tool/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/model/tool/image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/tool/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/tool/image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/language.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/language.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/search.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/logo-100x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/logo-100x100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/catalog/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.1564652979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1564653346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.information.1.1564652979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1564653169" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.1.1564652979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.1.1564652970" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.2.1564653185" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.return_status.1.1564652979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1564654092" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.1.1564652979" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.zone.222.1564652979" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/home.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/slideshow.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/slideshow.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1564926321" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1564926321" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
     </list>
@@ -98,7 +78,8 @@
       <workItem from="1564648432296" duration="46000" />
       <workItem from="1564648580083" duration="2630000" />
       <workItem from="1564664610442" duration="8483000" />
-      <workItem from="1564909769448" duration="9291000" />
+      <workItem from="1564909769448" duration="13046000" />
+      <workItem from="1564928406127" duration="757000" />
     </task>
     <servers />
   </component>
