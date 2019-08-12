@@ -554,6 +554,7 @@ class ControllerCatalogProduct extends Controller {
 		$data['entry_location'] = $this->language->get('entry_location');
 		$data['entry_minimum'] = $this->language->get('entry_minimum');
 		$data['entry_shipping'] = $this->language->get('entry_shipping');
+		$data['entry_status_new'] = $this->language->get('entry_status_new');
 		$data['entry_date_available'] = $this->language->get('entry_date_available');
 		$data['entry_quantity'] = $this->language->get('entry_quantity');
 		$data['entry_stock_status'] = $this->language->get('entry_stock_status');
@@ -846,6 +847,14 @@ class ControllerCatalogProduct extends Controller {
 		} else {
 			$data['shipping'] = 1;
 		}
+
+        if (isset($this->request->post['status_new'])) {
+            $data['status_new'] = $this->request->post['status_new'];
+        } elseif (!empty($product_info)) {
+            $data['status_new'] = $product_info['status_new'];
+        } else {
+            $data['status_new'] = 1;
+        }
 
 		if (isset($this->request->post['price'])) {
 			$data['price'] = $this->request->post['price'];

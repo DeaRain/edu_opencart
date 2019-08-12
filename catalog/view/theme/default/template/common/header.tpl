@@ -73,6 +73,31 @@
 </nav>
 <?php endif;?>
 <header>
+
+    <?php if(0) :?>
+    <?php foreach ($categories as $category) { ?>
+        <?php if ($category['children']) { ?>
+            <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-inner">
+                        <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+                            <ul class="list-unstyled">
+                                <?php foreach ($children as $child) { ?>
+                                    <img src="<?php echo $child['image']; ?>" alt="">
+                                    <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
+                                <?php } ?>
+                            </ul>
+                        <?php } ?>
+                    </div>
+<!--                    <a href="--><?php //echo $category['href']; ?><!--" class="see-all">--><?php //echo $text_all; ?><!-- --><?php //echo $category['name']; ?><!--</a> </div>-->
+            </li>
+        <?php } else { ?>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+        <?php } ?>
+    <?php } ?>
+
+    <?php endif;?>
+
   <div class="header-flex-container">
     <div class="container">
       <div class="header-container">
@@ -94,27 +119,25 @@
             <div class="left-menu__close-button"><img src="catalog/view/dist/img/cross-remove-sign.svg"
                                                       class="cross-remove-sign"></div>
             <div class="left-menu__menu">
-              <ul id="menu-menu-left" class="left-menu"><li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="#">ПРО НАС</a></li>
-                <li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a href="#">Галерея</a></li>
-                <li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"><a href="#">ТАБЛИЦЯ РОЗМІРІВ</a></li>
-                <li id="menu-item-120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-120"><a href="javascript:void(0);">КЛІЄНТАМ</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121"><a href="#">Питання-відповідь</a></li>
-                    <li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122"><a href="#">Доставка і оплата</a></li>
-                    <li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-123"><a href="#">Повернення товару</a></li>
-                  </ul>
-                </li>
-                <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-126"><a href="javascript:void(0);">ПАРТНЕРАМ</a>
-                  <ul class="sub-menu">
-                    <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="#">Гурт. Великий гурт</a></li>
-                    <li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-128"><a href="#">Дропшипінг</a></li>
-                    <li id="menu-item-129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129"><a href="#">Корпоративні замовлення</a></li>
-                  </ul>
-                </li>
-                <li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-130"><a href="#">НОВИНИ</a></li>
-                <li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131"><a href="#">ВІДГУКИ</a></li>
-                <li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="#">Контакти</a></li>
-              </ul>
+
+                <ul id="menu-menu-left" class="left-menu">
+                <?php foreach ($informations as $information) { ?>
+                   <?php if($information['title']!='Галерея') : ?>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
+                    <?php else :?>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="<?php echo $galery_href; ?>">Галерея</a></li>
+                    <?php endif; ?>
+                <?php } ?>
+
+                </ul>
+
+<!--                <li id="menu-item-120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-120"><a href="javascript:void(0);">КЛІЄНТАМ</a>-->
+<!--                  <ul class="sub-menu">-->
+<!--                    <li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121"><a href="#">Питання-відповідь</a></li>-->
+<!--                    <li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122"><a href="#">Доставка і оплата</a></li>-->
+<!--                    <li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-123"><a href="#">Повернення товару</a></li>-->
+<!--                  </ul>-->
+<!--                </li>-->
             </div>
           </div>
 
@@ -125,7 +148,7 @@
 
         <div class="header-container__center-logo">
 <!--          <img src="catalog/view/dist/img/logo.svg" class="logo__img">-->
-          <img src="<?php echo $logo; ?>" class="logo__img">
+            <a href=""><img src="<?php echo $logo; ?>" class="logo__img"></a>
         </div>
 
         <div class="header-container__right">
@@ -166,114 +189,34 @@
             <span class="icon-down-arrow-of-angle top-menu-changer__arrow"></span>
           </div>
           <ul class="top-menu">
-            <li class="top-menu__item top-menu__item_dropdown">
-              <a href="#" class="top-menu__item-url">Жінкам</a>
-              <div class="top-menu__item-container">
-                <div class="container">
-                  <div class="top-menu__item-container-inside">
-                    <a href="#" class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/woman-1.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Довгі шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/woman-2.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Класичні шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/woman-3.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Короткі шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/woman-4.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Слід, підслідок
-                                        </span>
-                    </a>
+
+<!--              <pre>--><?php //var_dump($categories);  ?><!--</pre>-->
+
+              <?php foreach ($categories as $category) : ?>
+
+              <li class="top-menu__item top-menu__item_dropdown">
+
+                  <a <?php echo 'href="'.$category['href'].'"'; ?> class="top-menu__item-url"><?= $category['name']?></a>
+                  <?php if($category['children']) :?>
+
+                  <div class="top-menu__item-container">
+                      <div class="container">
+                          <div class="top-menu__item-container-inside">
+
+                      <?php foreach ($category['children'] as $children) : ?>
+                          <a href="<?=$children['href'] ?>" class="top-menu__item-container-item">
+                              <img src="<?=$children['image'] ?>" class="top-menu__item-container-item-image">
+                              <span class="top-menu__item-container-item-header">
+                                            <?=$children['name'] ?>
+                              </span>
+                          </a>
+                      <?php endforeach;?>
+                          </div>
+                      </div>
                   </div>
-                </div>
-              </div>
-            </li>
-            <li class="top-menu__item top-menu__item_dropdown">
-              <a href="#" class="top-menu__item-url">Чоловікам</a>
-              <div class="top-menu__item-container">
-                <div class="container">
-                  <div class="top-menu__item-container-inside">
-                    <a href="#" class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/man-1.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Довгі шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/man-2.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Класичні шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/man-3.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Короткі шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/man-4.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Слід, підслідок
-                                        </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="top-menu__item top-menu__item_dropdown">
-              <a href="#" class="top-menu__item-url">Дітям</a>
-              <div class="top-menu__item-container">
-                <div class="container">
-                  <div class="top-menu__item-container-inside">
-                    <a href="#" class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/kid-1.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Довгі шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/kid-2.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Класичні шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/kid-3.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Короткі шкарпетки
-                                        </span>
-                    </a>
-                    <a class="top-menu__item-container-item">
-                      <img src="catalog/view/dist/img/kid-4.svg" class="top-menu__item-container-item-image">
-                      <span class="top-menu__item-container-item-header">
-                                            Слід, підслідок
-                                        </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="top-menu__item">
-              <a href="#" class="top-menu__item-url top-menu__item-url_hot">SALE</a>
-            </li>
-            <li class="top-menu__item">
-              <a href="#" class="top-menu__item-url">Підписка</a>
-            </li>
-            <li class="top-menu__item">
-              <a href="#" class="top-menu__item-url">Подарункові коробки</a>
-            </li>
+                  <?php endif; ?>
+              </li>
+              <?php endforeach;?>
           </ul>
         </nav>
       </div>

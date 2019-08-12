@@ -22,13 +22,16 @@ $_['entry_meta_title'] 	     = 'Мета-тег Title';
 $_['entry_meta_keyword'] 	 = 'Мета-тег Keywords';
 $_['entry_meta_description'] = 'Мета-тег Description';
 $_['entry_keyword']          = 'SEO URL';
+$_['entry_top']              = 'Отображить сверху';
 $_['entry_bottom']           = 'Отображить снизу';
 $_['entry_status']           = 'Статус';
+$_['entry_parent']           = 'Родитель';
 $_['entry_sort_order']       = 'Порядок сортировки';
 $_['entry_layout']           = 'Выберите схему';
 
 // Help
 $_['help_keyword']           = 'Должно быть уникальным на всю систему и без пробелов';
+$_['help_top']               = 'Показывать в верхней части сайта (хедер, шапка)';
 $_['help_bottom']            = 'Показывать в нижней части сайта (футер, подвал)';
 
 // Error

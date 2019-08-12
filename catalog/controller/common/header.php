@@ -85,6 +85,8 @@ class ControllerCommonHeader extends Controller {
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
 
+		$data['galery_href'] = $this->url->link('module/gallery', '', 'SSL');
+
 		$status = true;
 
 		if (isset($this->request->server['HTTP_USER_AGENT'])) {
@@ -98,6 +100,24 @@ class ControllerCommonHeader extends Controller {
 				}
 			}
 		}
+
+		//Information
+        $this->load->model('catalog/information');
+
+        $data['informations'] = array();
+
+
+        foreach ($this->model_catalog_information->getInformations() as $result) {
+            if ($result['top']) {
+                $data['informations'][] = array(
+                    'title' => $result['title'],
+                    'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+                );
+            }
+
+        }
+
+
 
 		// Menu
 		$this->load->model('catalog/category');
@@ -121,8 +141,15 @@ class ControllerCommonHeader extends Controller {
 						'filter_sub_category' => true
 					);
 
+                    if ($child['image']) {
+                        $image = $this->model_tool_image->resize($child['image'], 150, 150);
+                    } else {
+                        $image = '';
+                    }
+
 					$children_data[] = array(
-						'name'  => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+					    'image' => $image,
+						'name'  => $child['name'],
 						'href'  => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
 					);
 				}

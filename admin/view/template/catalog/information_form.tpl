@@ -124,6 +124,22 @@
                   <?php } ?>
                 </div>
               </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-top"><span data-toggle="tooltip" title="<?php echo $help_top; ?>"><?php echo $entry_top; ?></span></label>
+                <div class="col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <?php if ($top) { ?>
+                                <input type="checkbox" name="top" value="1" checked="checked" id="input-top" />
+                            <?php } else { ?>
+                                <input type="checkbox" name="top" value="1" id="input-top" />
+                            <?php } ?>
+                            &nbsp; </label>
+                    </div>
+                </div>
+            </div>
+
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-bottom"><span data-toggle="tooltip" title="<?php echo $help_bottom; ?>"><?php echo $entry_bottom; ?></span></label>
                 <div class="col-sm-10">
@@ -138,6 +154,19 @@
                   </div>
                 </div>
               </div>
+                <?php if(is_bool($parent)) $parent=0; ?>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="input-parent"><?php echo $entry_parent;?></label>
+                    <div class="col-sm-10">
+                        <select name="parent" id="input-parent" class="form-control">
+                            <option value="0" <?php if ($parent == 0)  echo 'selected="selected"'; ?> ><?php echo $text_disabled; ?></option>
+                            <option value="1" <?php if ($parent == 1)  echo 'selected="selected"'; ?> >Про компанию</option>
+                            <option value="2" <?php if ($parent == 2)  echo 'selected="selected"'; ?> >Клієнтам</option>
+                            <option value="3" <?php if ($parent == 3)  echo 'selected="selected"'; ?> >Партнерам</option>
+                        </select>
+                    </div>
+                </div>
+
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
                 <div class="col-sm-10">

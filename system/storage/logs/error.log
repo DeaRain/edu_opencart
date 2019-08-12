@@ -1,58 +1,254 @@
-2019-07-30 14:11:04 - PHP Notice:  Undefined variable: entry_export in /var/www/test.loc/html/admin/view/template/tool/backup.tpl on line 43
-2019-07-30 14:11:19 - PHP Notice:  Undefined variable: entry_export in /var/www/test.loc/html/admin/view/template/tool/backup.tpl on line 43
-2019-08-01 13:58:20 - PHP Notice:  Undefined variable: telephone in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 95
-2019-08-01 13:58:47 - PHP Notice:  Undefined variable: telephone in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 95
-2019-08-01 13:59:34 - PHP Notice:  Undefined variable: telephone in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 95
-2019-08-01 14:02:14 - PHP Notice:  Undefined variable: telephone in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 95
-2019-08-01 14:02:52 - PHP Notice:  Undefined variable: telephone in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 95
-2019-08-01 14:18:13 - PHP Notice:  Undefined variable: entry_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 149
-2019-08-01 14:18:13 - PHP Notice:  Undefined variable: config_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 151
-2019-08-01 14:18:13 - PHP Notice:  Undefined variable: entry_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 151
-2019-08-01 14:18:41 - PHP Notice:  Undefined variable: entry_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 149
-2019-08-01 14:18:41 - PHP Notice:  Undefined variable: config_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 151
-2019-08-01 14:18:41 - PHP Notice:  Undefined variable: entry_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 151
-2019-08-01 14:18:41 - PHP Notice:  Undefined variable: error_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 152
-2019-08-01 14:19:38 - PHP Notice:  Undefined variable: entry_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 149
-2019-08-01 14:19:38 - PHP Notice:  Undefined variable: config_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 151
-2019-08-01 14:19:38 - PHP Notice:  Undefined variable: entry_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 151
-2019-08-01 14:19:38 - PHP Notice:  Undefined variable: error_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 152
-2019-08-01 14:22:35 - PHP Notice:  Undefined variable: error_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 152
-2019-08-01 14:23:29 - PHP Notice:  Undefined variable: error_facebook in /var/www/test.loc/html/admin/view/template/setting/setting.tpl on line 152
-2019-08-01 15:12:25 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/controller/design/banner.php on line 386
-2019-08-01 15:12:25 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/controller/design/banner.php on line 386
-2019-08-04 9:21:04 - PHP Notice:  Undefined variable: instagram in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 100
-2019-08-04 9:21:04 - PHP Notice:  Undefined variable: twitter in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 101
-2019-08-04 9:21:04 - PHP Notice:  Undefined variable: youtube in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 102
-2019-08-04 9:21:06 - PHP Notice:  Undefined variable: instagram in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 100
-2019-08-04 9:21:06 - PHP Notice:  Undefined variable: twitter in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 101
-2019-08-04 9:21:06 - PHP Notice:  Undefined variable: youtube in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 102
-2019-08-04 9:21:33 - PHP Notice:  Undefined variable: twitter in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 101
-2019-08-04 9:21:33 - PHP Notice:  Undefined variable: youtube in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 102
-2019-08-04 10:10:10 - PHP Notice:  Undefined variable: text_language in /var/www/test.loc/html/catalog/view/theme/default/template/common/currency.tpl on line 5
-2019-08-04 13:18:02 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
-2019-08-04 13:18:03 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
-2019-08-04 13:18:03 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 84
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 85
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 101
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 102
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 84
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 85
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 101
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 102
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 84
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 85
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 101
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 102
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 105
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
-2019-08-04 13:42:47 - PHP Notice:  A non well formed numeric value encountered in /var/www/test.loc/html/system/library/image.php on line 116
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:09 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-07 16:37:15 - PHP Notice:  Undefined index: image in /var/www/test.loc/html/catalog/view/theme/default/template/common/header.tpl on line 205
+2019-08-08 7:27:17 - PHP Warning:  unlink(/var/www/test.loc/html/system/storage/cache/cache.country.1565196849): No such file or directory in /var/www/test.loc/html/system/library/cache/file.php on line 17
+2019-08-08 7:27:17 - PHP Warning:  unlink(/var/www/test.loc/html/system/storage/cache/cache.currency.1565198898): No such file or directory in /var/www/test.loc/html/system/library/cache/file.php on line 17
+2019-08-08 7:27:17 - PHP Warning:  unlink(/var/www/test.loc/html/system/storage/cache/cache.information.2.1565196849): No such file or directory in /var/www/test.loc/html/system/library/cache/file.php on line 17
+2019-08-08 7:27:17 - PHP Warning:  unlink(/var/www/test.loc/html/system/storage/cache/cache.language.1565197985): No such file or directory in /var/www/test.loc/html/system/library/cache/file.php on line 17
+2019-08-08 7:27:17 - PHP Warning:  unlink(/var/www/test.loc/html/system/storage/cache/cache.return_status.2.1565196849): No such file or directory in /var/www/test.loc/html/system/library/cache/file.php on line 17
+2019-08-08 7:27:17 - PHP Warning:  unlink(/var/www/test.loc/html/system/storage/cache/cache.zone.222.1565196849): No such file or directory in /var/www/test.loc/html/system/library/cache/file.php on line 17
+2019-08-08 8:07:52 - PHP Notice:  Undefined variable: categories in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 128
+2019-08-08 8:07:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 128
+2019-08-08 13:25:05 - PHP Notice:  Undefined variable: entry_status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 367
+2019-08-08 13:25:05 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 370
+2019-08-08 13:25:05 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 379
+2019-08-08 13:25:33 - PHP Notice:  Undefined variable: entry_status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 367
+2019-08-08 13:25:33 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 370
+2019-08-08 13:25:33 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 379
+2019-08-08 13:27:01 - PHP Notice:  Undefined variable: entry_status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 367
+2019-08-08 13:27:01 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 370
+2019-08-08 13:27:01 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 379
+2019-08-08 13:27:43 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 370
+2019-08-08 13:27:43 - PHP Notice:  Undefined variable: status_new in /var/www/test.loc/html/admin/view/template/catalog/product_form.tpl on line 379
+2019-08-08 13:28:34 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/admin/controller/catalog/product.php on line 854
+2019-08-08 13:33:00 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/admin/controller/catalog/product.php on line 854
+2019-08-08 13:46:55 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:46:55 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:46:55 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:46:55 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:46:55 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:40 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:40 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:40 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:40 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:40 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:41 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:41 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:41 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:41 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 13:47:41 - PHP Notice:  Undefined index: status_new in /var/www/test.loc/html/catalog/controller/module/featured.php on line 74
+2019-08-08 14:28:40 - PHP Notice:  Undefined index: banner_id in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:28:40 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:28:40 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:28:40 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:28:40 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:28:40 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:28:40 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:28:53 - PHP Notice:  Undefined index: banner_id in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:28:53 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:28:53 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:28:53 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:28:53 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:28:53 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:28:53 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:28:54 - PHP Notice:  Undefined index: banner_id in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:28:54 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:28:54 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:28:54 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:28:54 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:28:54 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:28:54 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: results in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 13
+2019-08-08 14:29:02 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 13
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:29:02 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:29:14 - PHP Notice:  Undefined index: banner_id in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:29:14 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:29:14 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:29:14 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:29:14 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:29:14 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:29:14 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:30:30 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
+2019-08-08 14:30:30 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
+2019-08-08 14:30:30 - PHP Notice:  Undefined index: sort_order in /var/www/test.loc/html/admin/model/design/banner.php on line 12
+2019-08-08 14:31:52 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:31:52 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:31:52 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:31:52 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:31:52 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:31:52 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:31:52 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:31:53 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:31:53 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:31:53 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:31:53 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:31:53 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:31:53 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:31:53 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:31:54 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:31:54 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:31:54 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:31:54 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:31:54 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:31:54 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:31:54 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:32:17 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:32:17 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:32:17 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:32:17 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:32:17 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:32:17 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:32:17 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:32:30 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:32:30 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:32:30 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:32:30 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:32:30 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:32:30 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:32:30 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:32:43 - PHP Notice:  Undefined index: banner_id in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:32:43 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:32:43 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:32:43 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:32:43 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:32:43 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:32:43 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:33:01 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:33:01 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:33:01 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:33:01 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:33:01 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:33:01 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:33:01 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:33:28 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:33:28 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:33:28 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:33:28 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:33:28 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:33:28 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:33:28 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:33:36 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:33:36 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:33:36 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:33:37 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:33:37 - PHP Notice:  Undefined offset: 11 in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 11
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:33:37 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:34:11 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:34:11 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:34:11 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:34:11 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:34:11 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:34:11 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:34:19 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:34:19 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:34:19 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:34:19 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:34:19 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:34:19 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:34:23 - PHP Notice:  Undefined variable: header in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 1
+2019-08-08 14:34:23 - PHP Notice:  Undefined variable: column_left in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 3
+2019-08-08 14:34:23 - PHP Notice:  Undefined variable: content_top in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 4
+2019-08-08 14:34:23 - PHP Notice:  Undefined variable: content_bottom in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 5
+2019-08-08 14:34:23 - PHP Notice:  Undefined variable: column_right in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 6
+2019-08-08 14:34:23 - PHP Notice:  Undefined variable: footer in /var/www/test.loc/html/catalog/view/theme/default/template/module/gallery.tpl on line 20
+2019-08-08 14:35:59 - PHP Notice:  Undefined variable: module in /var/www/test.loc/html/catalog/controller/module/gallery.php on line 34
+2019-08-08 14:40:05 - PHP Notice:  Error: Could not load template /var/www/test.loc/html/catalog/view/theme/default/template/common/gallery.tpl! in /var/www/test.loc/html/system/storage/modification/system/engine/loader.php on line 86
+2019-08-11 10:12:36 - PHP Notice:  Undefined variable: help_top in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 129
+2019-08-11 10:12:36 - PHP Notice:  Undefined variable: entry_top in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 129
+2019-08-11 10:12:36 - PHP Notice:  Undefined variable: top in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 133
+2019-08-11 10:17:37 - PHP Notice:  Undefined index: top in /var/www/test.loc/html/admin/controller/catalog/information.php on line 399
+2019-08-11 10:18:13 - PHP Notice:  Error: Unknown column 'top' in 'field list'<br />Error No: 1054<br />UPDATE oc_information SET sort_order = '2', top = '1', bottom = '1', status = '1' WHERE information_id = '13' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:18:18 - PHP Notice:  Undefined index: top in /var/www/test.loc/html/admin/controller/catalog/information.php on line 399
+2019-08-11 10:36:33 - PHP Notice:  Undefined variable: entry_parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 159
+2019-08-11 10:36:33 - PHP Notice:  Undefined variable: parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 164
+2019-08-11 10:41:44 - PHP Notice:  Undefined variable: entry_parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 159
+2019-08-11 10:41:44 - PHP Notice:  Undefined variable: parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 162
+2019-08-11 10:41:44 - PHP Notice:  Undefined variable: parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 163
+2019-08-11 10:41:44 - PHP Notice:  Undefined variable: parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 164
+2019-08-11 10:41:44 - PHP Notice:  Undefined variable: parent in /var/www/test.loc/html/admin/view/template/catalog/information_form.tpl on line 165
+2019-08-11 10:45:47 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/admin/controller/catalog/information.php on line 416
+2019-08-11 10:46:15 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/admin/controller/catalog/information.php on line 416
+2019-08-11 10:47:36 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '9'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '1', top = '0', bottom = '1', parent = '1' WHERE information_id = '9', status = '1' WHERE information_id = '9' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:47:36 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '9'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '1', top = '0', bottom = '1', parent = '1' WHERE information_id = '9', status = '1' WHERE information_id = '9' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:47:47 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '13'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '2', top = '1', bottom = '1', parent = '1' WHERE information_id = '13', status = '1' WHERE information_id = '13' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:48:53 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '13'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '2', top = '1', bottom = '1', parent = '1' WHERE information_id = '13', status = '1' WHERE information_id = '13' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:48:53 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '13'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '2', top = '1', bottom = '1', parent = '1' WHERE information_id = '13', status = '1' WHERE information_id = '13' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:53:11 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '14'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '0', top = '0', bottom = '1', parent = '1' WHERE information_id = '14', status = '1' WHERE information_id = '14' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:53:11 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' status = '1' WHERE information_id = '14'' at line 1<br />Error No: 1064<br />UPDATE oc_information SET sort_order = '0', top = '0', bottom = '1', parent = '1' WHERE information_id = '14', status = '1' WHERE information_id = '14' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:55:28 - PHP Notice:  Undefined index: status1 in /var/www/test.loc/html/admin/model/catalog/information.php on line 40
+2019-08-11 10:55:28 - PHP Notice:  Error: Unknown column 'status1' in 'field list'<br />Error No: 1054<br />UPDATE oc_information SET sort_order = '0', top = '0', bottom = '1', status1 = '0' WHERE information_id = '14' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 10:55:28 - PHP Notice:  Undefined index: status1 in /var/www/test.loc/html/admin/model/catalog/information.php on line 40
+2019-08-11 10:55:28 - PHP Notice:  Error: Unknown column 'status1' in 'field list'<br />Error No: 1054<br />UPDATE oc_information SET sort_order = '0', top = '0', bottom = '1', status1 = '0' WHERE information_id = '14' in /var/www/test.loc/html/system/library/db/mysqli.php on line 41
+2019-08-11 11:40:51 - PHP Notice:  String offset cast occurred in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:40:51 - PHP Notice:  String offset cast occurred in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:40:51 - PHP Notice:  String offset cast occurred in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:40:51 - PHP Notice:  String offset cast occurred in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:40:51 - PHP Notice:  String offset cast occurred in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:40:51 - PHP Notice:  String offset cast occurred in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/test.loc/html/catalog/controller/common/footer.php on line 38
+2019-08-11 11:44:11 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 11:44:11 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 11:44:11 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 11:44:11 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 11:44:11 - PHP Notice:  Undefined index: parent in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 12:06:57 - PHP Notice:  Undefined variable: categories in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 12:06:57 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 125
+2019-08-11 12:11:25 - PHP Notice:  Undefined index: children in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 130
+2019-08-11 12:11:25 - PHP Notice:  Undefined index: children in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 130
+2019-08-11 12:11:25 - PHP Notice:  Undefined index: children in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 130
+2019-08-11 12:11:25 - PHP Notice:  Undefined index: children in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 130
+2019-08-11 12:11:25 - PHP Notice:  Undefined index: children in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 130
+2019-08-11 12:11:25 - PHP Notice:  Undefined index: children in /var/www/test.loc/html/catalog/view/theme/default/template/common/footer.tpl on line 130

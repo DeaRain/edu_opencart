@@ -22,12 +22,11 @@
           <li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69">
             <a href="javascript:void(0);">Про компанію</a>
             <ul class="sub-menu">
-              <li id="menu-item-70" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#">Про нас</a></li>
-              <li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#">Галерея</a></li>
-              <li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="#">Таблиця розмірів</a></li>
-              <li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="#">Новини</a></li>
-              <li id="menu-item-74" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74"><a href="#">Відгуки</a></li>
-              <li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74"><a href="#">Контакти</a></li>
+                <?php foreach ($informations as $information) : ?>
+                    <?php if($information['parent']=='1') : ?>
+                        <li class="menu-item "><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
+                    <?php endif; ?>
+                <?php endforeach; ?>
             </ul>
           </li>
         </ul>
@@ -38,12 +37,9 @@
           <li id="menu-item-691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69">
             <a href="javascript:void(0);">магазин</a>
             <ul class="sub-menu">
-              <li id="menu-item-701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#">Жінкам</a></li>
-              <li id="menu-item-711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#">Чоловікам</a></li>
-              <li id="menu-item-721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="#">Дітям</a></li>
-              <li id="menu-item-731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="#">Sale</a></li>
-              <li id="menu-item-741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74"><a href="#">Підписка</a></li>
-              <li id="menu-item-742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-74"><a href="#">Подарункові коробки</a></li>
+                <?php foreach ($categories as $category) : ?>
+                <li class="menu-item"> <a <?php echo 'href="'.$category['href'].'"'; ?> class="top-menu__item-url"><?= $category['name']?></a></li>
+                <?php endforeach;?>
             </ul>
           </li>
         </ul>
@@ -55,9 +51,11 @@
           <li id="menu-item-2134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69">
             <a href="javascript:void(0);">Клієнтам</a>
             <ul class="sub-menu">
-              <li id="menu-item-7012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#">Питання-відповідь</a></li>
-              <li id="menu-item-7112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#">Доставка і оплата</a></li>
-              <li id="menu-item-7212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="#">Повернення товару</a></li>
+                <?php foreach ($informations as $information) : ?>
+                    <?php if($information['parent']=='2') : ?>
+                        <li class="menu-item "><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
+                    <?php endif; ?>
+                <?php endforeach; ?>
             </ul>
           </li>
         </ul>
@@ -71,10 +69,11 @@
           <li id="menu-item-6912" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69">
             <a href="javascript:void(0);" onclick="false">Партнерам</a>
             <ul class="sub-menu">
-              <li id="menu-item-70312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#">Опт</a></li>
-              <li id="menu-item-71312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#">Крупний опт</a></li>
-              <li id="menu-item-7231" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="#">Дропшипінг</a></li>
-              <li id="menu-item-3731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="#">Корпоративні замовлення</a></li>
+                <?php foreach ($informations as $information) : ?>
+                    <?php if($information['parent']=='3') : ?>
+                        <li class="menu-item "><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
+                    <?php endif; ?>
+                <?php endforeach; ?>
             </ul>
           </li>
         </ul>
@@ -119,7 +118,6 @@
       </div>
     </div>
   </div>
-
 
 </footer>
 

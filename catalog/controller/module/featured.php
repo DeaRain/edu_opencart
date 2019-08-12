@@ -12,7 +12,6 @@ class ControllerModuleFeatured extends Controller {
 		$data['button_compare'] = $this->language->get('button_compare');
 
 		$this->load->model('catalog/product');
-
 		$this->load->model('tool/image');
 
 		$data['products'] = array();
@@ -58,7 +57,10 @@ class ControllerModuleFeatured extends Controller {
 						$rating = false;
 					}
 
-					$data['products'][] = array(
+                    $data['attribute_groups'] = $this->model_catalog_product->getProductAttributes($product_id);
+//                    echo '<pre>'.var_dump($data['attribute_groups'][0]['attribute'])."</pre>";
+                    $attributes = $data['attribute_groups'][0]['attribute'];
+                    $data['products'][] = array(
 						'product_id'  => $product_info['product_id'],
 						'thumb'       => $image,
 						'name'        => $product_info['name'],
@@ -67,12 +69,14 @@ class ControllerModuleFeatured extends Controller {
 						'special'     => $special,
 						'tax'         => $tax,
 						'rating'      => $rating,
-						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
+						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id']),
+                        'attributes'  => $attributes,
+                        'status_new'  => $product_info['status_new']
 					);
 				}
 			}
 		}
-
+//		var_dump($product_info['status_new']);die;
 		if ($data['products']) {
 			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/featured.tpl')) {
 				return $this->load->view($this->config->get('config_template') . '/template/module/featured.tpl', $data);

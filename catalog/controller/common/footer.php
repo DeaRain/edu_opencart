@@ -34,11 +34,32 @@ class ControllerCommonFooter extends Controller {
 		foreach ($this->model_catalog_information->getInformations() as $result) {
 			if ($result['bottom']) {
 				$data['informations'][] = array(
+				    'parent' => $result['parent'],
 					'title' => $result['title'],
 					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
 				);
 			}
 		}
+
+
+
+
+
+
+        // Menu
+        $this->load->model('catalog/category');
+        $data['categories'] = array();
+        $categories = $this->model_catalog_category->getCategories(0);
+
+        foreach ($categories as $category) {
+            if ($category['top']) {
+                $data['categories'][] = array(
+                    'name'     => $category['name'],
+                    'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
+                );
+            }
+        }
+
 
 		$data['contact'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', 'SSL');

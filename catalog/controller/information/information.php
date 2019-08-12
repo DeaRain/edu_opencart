@@ -5,6 +5,8 @@ class ControllerInformationInformation extends Controller {
 
 		$this->load->model('catalog/information');
 
+        $this->load->model('tool/image');
+
 		$data['breadcrumbs'] = array();
 
 		$data['breadcrumbs'][] = array(

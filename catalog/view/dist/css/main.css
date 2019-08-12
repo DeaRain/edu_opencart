@@ -10651,7 +10651,8 @@ a:visited {
     line-height: 1;
     letter-spacing: normal;
     color: #1a1a1a;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    z-index: 20; }
 .right-drop-list .right-drop-list__header:hover {
     text-decoration: none;
     cursor: pointer; }
@@ -10866,6 +10867,8 @@ a:visited {
     list-style: none; }
 .top-menu .top-menu__item {
     padding: 17px 0px 13px 0px; }
+.top-menu .top-menu__item:nth-child(4) .top-menu__item-url {
+    color: #e83c4d; }
 .top-menu .top-menu__item:hover .top-menu__item-url:after {
     width: 100%; }
 .top-menu .top-menu__item:hover .top-menu__item-url:hover {
@@ -10896,8 +10899,6 @@ a:visited {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%); }
-.top-menu .top-menu__item .top-menu__item-url_hot {
-    color: #e83c4d; }
 .top-menu .top-menu__item-container {
     position: absolute;
     display: none;

@@ -361,6 +361,33 @@
                   </div>
                 </div>
               </div>
+
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><?php echo $entry_status_new; ?></label>
+                    <div class="col-sm-10">
+                        <label class="radio-inline">
+                            <?php if ($status_new) { ?>
+                                <input type="radio" name="status_new" value="1" checked="checked" />
+                                <?php echo $text_yes; ?>
+                            <?php } else { ?>
+                                <input type="radio" name="status_new" value="1" />
+                                <?php echo $text_yes; ?>
+                            <?php } ?>
+                        </label>
+                        <label class="radio-inline">
+                            <?php if (!$status_new) { ?>
+                                <input type="radio" name="status_new" value="0" checked="checked" />
+                                <?php echo $text_no; ?>
+                            <?php } else { ?>
+                                <input type="radio" name="status_new" value="0" />
+                                <?php echo $text_no; ?>
+                            <?php } ?>
+                        </label>
+                    </div>
+                </div>
+
+
               <div class="form-group">
                 <label class="col-sm-2 control-label"><?php echo $entry_store; ?></label>
                 <div class="col-sm-10">
