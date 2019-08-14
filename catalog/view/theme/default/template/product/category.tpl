@@ -1,10 +1,46 @@
 <?php echo $header; ?>
+
+<div class="grey-block">
+    <div class="container">
+        <ul class="my-breadcrumb">
+            <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+                <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+            <?php } ?>
+        </ul>
+    </div>
+</div>
+
+
+
 <div class="container">
-  <ul class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
-    <?php } ?>
-  </ul>
+    <div class="cat-info">
+        <img src="img/bitmap-17.jpg" alt="" class="cat-info__img">
+        <div class="cat-info__right-block">
+            <div class="cat-info__header">Короткі шкарпетки</div>
+            <div class="cat-info__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.
+                <p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+<!--  <ul class="breadcrumb">-->
+<!--    --><?php //foreach ($breadcrumbs as $breadcrumb) { ?>
+<!--    <li><a href="--><?php //echo $breadcrumb['href']; ?><!--">--><?php //echo $breadcrumb['text']; ?><!--</a></li>-->
+<!--    --><?php //} ?>
+<!--  </ul>-->
+
+
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>

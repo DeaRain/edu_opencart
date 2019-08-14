@@ -1,0 +1,14 @@
+---------- Date: 2019-08-14 15:33:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&path=59_72
+MOD DETAILS:
+   modFile   : /var/www/test.loc/html/vqmod/xml/mega_filter.xml
+   id        : Mega Filter PRO
+   version   : 1.5.x
+   vqmver    : 2.4.0
+   author    : marsilea15@gmail.com
+
+File Name    : catalog/view/theme/*/template/product/category.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <?php echo $content_top; ?>
+----------------------------------------------------------------------
+
+

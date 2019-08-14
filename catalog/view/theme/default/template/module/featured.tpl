@@ -15,8 +15,8 @@
             <div class="tab-content">
                 <div id="panel1" class="tab-pane fade in active show">
                     <div class="production-slider slider__dots_main-theme slider__dots_our-productions-style slider__arrows_main-theme">
-
                         <?php foreach ($products as $product) : ?>
+                        <?php if ($product['status_new']) : ?>
                             <div class="production-slider__item">
                                 <a href="<?php echo $product['href']; ?>" class="production-slider__item-url">
                                     <img class="production-slider__item-img" src="<?php echo $product['thumb']; ?>" alt="">
@@ -39,21 +39,49 @@
                                 <?php endif; ?>
                                 </div>
                                 <div class="production-slider_extend-info">
-                                    <?= $product['attributes'][0]['text']
-//                                    ." ".$product['status_new']
-                                    ?>
+                                    NEW
                                 </div>
                             </div>
+                        <?php endif; ?>
                         <?php endforeach; ?>
-
-
                     </div>
+                </div>
 
-                </div>
+
                 <div id="panel2" class="tab-pane fade">
-                    <h3>Панель 2</h3>
-                    <p>Содержимое 2 панели...</p>
+                    <div class="production-slider slider__dots_main-theme slider__dots_our-productions-style slider__arrows_main-theme">
+                        <?php foreach ($products as $product) : ?>
+                            <?php if ($product['special']) : ?>
+                                <div class="production-slider__item">
+                                    <a href="<?php echo $product['href']; ?>" class="production-slider__item-url">
+                                        <img class="production-slider__item-img" src="<?php echo $product['thumb']; ?>" alt="">
+                                        <span class="production-slider__item-name"><?php echo $product['name']; ?></span>
+                                    </a>
+                                    <div class="production-slider__item-control-panel">
+                                        <div class="interface-item interface-item_product-menu">
+                                            <span class="icon-heart interface-item__icon "></span>
+                                        </div>
+                                        <div class="interface-item interface-item_product-menu">
+                                            <span class="icon-shopping-bag interface-item__icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="production-slider__item-prices">
+                                            <span class="production-slider__item-price"><?php echo $product['special']; ?> </span>
+                                            <span class="production-slider__item-old-price"><?php echo $product['price']; ?> </span>
+                                    </div>
+                                    <div class="production-slider_extend-info">
+                                        <?php echo number_format(100 - (float)$product['special'] / (float)$product['price'] * 100).'%';?>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
+
+<!--                <div id="panel2" class="tab-pane fade">-->
+<!--                    <h3>Панель 2</h3>-->
+<!--                    <p>Содержимое 2 панели...</p>-->
+<!--                </div>-->
             </div>
         </div>
     </div>

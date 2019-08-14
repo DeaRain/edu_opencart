@@ -2,36 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7e3509a-d68c-40b9-9129-1ec255255631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/controller/module/gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/gallery.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/lt_newsletter1.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/catalog/information.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/catalog/information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/catalog/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/language/russian/catalog/information.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/russian/catalog/information.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/language/russian/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/language/russian/catalog/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/model/catalog/information.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/model/catalog/information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/model/catalog/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/template/catalog/information_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/template/catalog/information_form.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/template/catalog/product_form.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/information/information.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/information/information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/module/featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/module/featured.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/module/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/module/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/fonts/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/lib.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/lib.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/dist/single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/dist/single-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/footer.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/category.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/featured.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/featured.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1564932016" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1564932016" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1564929905" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1565538701" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1565538701" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/openbay.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/catalog/view/theme/default/template/module" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/catalog/view/theme/default/template/product" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,15 +82,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/product" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/module" />
       <recent name="$PROJECT_DIR$/catalog/controller/module" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/catalog/view/theme/default/template/common" />
-      <recent name="$PROJECT_DIR$/catalog/view/theme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,6 +129,17 @@
       <workItem from="1565250962437" duration="972000" />
       <workItem from="1565269655644" duration="7456000" />
       <workItem from="1565517486334" duration="8529000" />
+      <workItem from="1565701370926" duration="8756000" />
+      <workItem from="1565766053497" duration="308000" />
+      <workItem from="1565766637189" duration="113000" />
+      <workItem from="1565768677370" duration="95000" />
+      <workItem from="1565768819008" duration="130000" />
+      <workItem from="1565768970151" duration="55000" />
+      <workItem from="1565769056839" duration="55000" />
+      <workItem from="1565769212347" duration="28000" />
+      <workItem from="1565769443637" duration="545000" />
+      <workItem from="1565770047243" duration="97000" />
+      <workItem from="1565772606561" duration="18488000" />
     </task>
     <servers />
   </component>
